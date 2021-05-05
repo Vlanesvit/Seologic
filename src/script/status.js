@@ -7,8 +7,6 @@ popupBtnAddStatus.addEventListener('click', onInput);
 
 function onInput(e) {
   e.preventDefault();
-  if (statusText = null && statusAdd != null) {
-    statusText.textContent = statusAdd.value;
-    popup.classList.remove('open');
-  }
+  statusText.textContent = statusAdd.value;
+  popup.classList.remove('open');
 }
