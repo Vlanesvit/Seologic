@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое задание Нестерова Владислава - Seologic</title>
+  
+  <!-- Connect font Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Connect styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Connect media -->
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <section class="main">
+    <div class="container">
+      <div class="main-block">
+        <div class="section-title">
+          <h1 class="title">Здравствуйте, <span>№000001</span></h1>
+          <button class="status-btn popup-btn">Сменить статус</button>
+        </div>
+
+        <div class="status">
+          <p class="status-text">Статус</p>
+        </div>
+
+        <div class="form-block">
+
+          <form action="#" id="form" class="form" method="post">
+            <div class="input">
+              <label for="city" class="input-label">Ваш город</label>
+              <select id="city" class="input-field">
+                <option disabled selected></option>
+                <option value="select1">Минск</option>
+                <option value="select2">Гомель</option>
+                <option value="select3">Могилев</option>
+                <option value="select4">Витебск</option>
+                <option value="select5">Гродно</option>
+                <option value="select6">Брест</option>
+                <option value="select7">Барановичи</option>
+                <option value="select8">Мозырь</option>
+                <option value="select9">Солигорск</option>
+                <option value="select10">Жлобин</option>
+                <option value="select11">Жодино</option>
+                <option value="select12">Горки</option>
+                <option value="select13">Ивацевичи</option>
+                <option value="select14">Добруш</option>
+                <option value="select15">Шклов</option>
+                <option value="select16">Смолевичи</option>
+                <option value="select17">Минусинск</option>
+                <option value="select18">Назарово</option>
+                <option value="select19">Норильск</option>
+                <option value="select20">Сосновоборск</option>
+                <option value="select21">Ужур</option>
+                <option value="select22">Уяр</option>
+                <option value="select23">Шарыпово</option>
+              </select>
+              <span class="errors"></span>
+            </div>
+
+            <div class="input-line"></div>
+
+            <div class="input">
+              <label for="password" class="input-label">Пароль</label>
+              <input id="password" type="password" class="input-field">
+              <span class="errors"></span>
+              <label class="input-hint">Ваш новый пароль должен содержать не менее 5 символов.</label>
+            </div>
+
+            <div class="input">
+              <label for="passwordConfirmation" class="input-label">Пароль еще раз</label>
+              <input id="passwordConfirmation" type="password" class="input-field">
+              <span class="errors"></span>
+              <label class="input-hint"><span>Повторите пароль, пожалуйста, это обезопасит вас с нами
+                на случай ошибки.</span></label>
+            </div>
+
+            <div class="input-line"></div>
+
+            <div class="input">
+              <label for="email" class="input-label">Электронная почта</label>
+              <input id="email" type="email" class="input-field">
+              <span class="errors"></span>
+              <label class="input-hint">Можно изменить адрес, указанный при регистрации.</label>
+            </div>
+
+            <div class="input">
+              <label class="input-label">Я согласен</label>
+              <input id="check" class="input-checkbox" type="checkbox">
+              <label for="check" class="input-checkbox-hint">принимать актуальную информацию на email</label>
+            </div>
+
+            <div class="input-action">
+              <input type="submit" value="Изменить" class="form-btn">
+              <p class="changes"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="popup" class="popup">
+    <div class="popup-body">
+      <div class="popup-content">
+        <h2 class="popup-title">Сменить статус</h2>
+        <form action="#" class="popup-form" method="post">
+          <input type="text" class="input-field popup-input" placeholder="Введите статус">
+          <div class="popup-action">
+            <button class="form-btn popup-add">Сохранить</button>
+            <button class="popup-close form-btn">Назад</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Connect popup-script -->
+  <script src="script/popup.js"></script>
+  <!-- Connect status-script -->
+  <script src="script/status.js"></script>
+  <!-- Connect validate-script -->
+  <script src="script/validate.js"></script>
+</body>
+</html>
