@@ -1,0 +1,94 @@
+[
+    {
+        "city": "Минск",
+        "population": "1938280"
+    },
+    {
+        "city": "Гомель",
+        "population": "516976"
+    },
+    {
+        "city": "Могилев",
+        "population": "374655"
+    },
+    {
+        "city": "Витебск",
+        "population": "366299"
+    },
+    {
+        "city": "Гродно",
+        "population": "361352"
+    },
+    {
+        "city": "Брест",
+        "population": "335643"
+    },
+    {
+        "city": "Барановичи",
+        "population": "178889"
+    },
+    {
+        "city": "Мозырь",
+        "population": "112493"
+    },
+    {
+        "city": "Солигорск",
+        "population": "105998"
+    },
+    {
+        "city": "Жлобин",
+        "population": "75700"
+    },
+    {
+        "city": "Жодино",
+        "population": "63560"
+    },
+    {
+        "city": "Горки",
+        "population": "32943"
+    },
+    {
+        "city": "Ивацевичи",
+        "population": "23394"
+    },
+    {
+        "city": "Добруш",
+        "population": "18113"
+    },
+    {
+        "city": "Шклов",
+        "population": "16359"
+    },
+    {
+        "city": "Смолевичи",
+        "population": "15861"
+    },
+    {
+        "city": "Минусинск",
+        "population": "68007"
+    },
+    {
+        "city": "Назарово",
+        "population": "49825"
+    },
+    {
+        "city": "Норильск",
+        "population": "179554"
+    },
+    {
+        "city": "Сосновоборск",
+        "population": "40614"
+    },
+    {
+        "city": "Ужур",
+        "population": "15563"
+    },
+    {
+        "city": "Уяр",
+        "population": "11981"
+    },
+    {
+        "city": "Шарыпово",
+        "population": "37136"
+    }
+]
